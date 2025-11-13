@@ -1,0 +1,18 @@
+﻿services:
+  socobis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wildfly_10
+    environment:
+      - ORACLE_USER=socobis
+      - ORACLE_PASSWORD=socobis
+      - ORACLE_SID=DBCOURS
+      - DB_URL=jdbc:oracle:thin:@host.docker.internal:1521:DBCOURS
+    ports:
+      - "8280:8080"
+      - "9095:9990"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+      # modified

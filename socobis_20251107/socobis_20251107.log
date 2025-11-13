@@ -1,0 +1,562 @@
+
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Export done in US7ASCII character set and AL16UTF16 NCHAR character set
+server uses AL32UTF8 character set (possible charset conversion)
+
+About to export specified users ...
+. exporting pre-schema procedural objects and actions
+. exporting foreign function library names for user SOCOBIS 
+. exporting PUBLIC type synonyms
+. exporting private type synonyms
+. exporting object type definitions for user SOCOBIS 
+About to export SOCOBIS's objects ...
+. exporting database links
+. exporting sequence numbers
+. exporting cluster definitions
+. about to export SOCOBIS's tables via Conventional Path ...
+. . exporting table                           ACTE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     ACTIONROLE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         AGENCE          4 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        ALL_VUE         27 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table          ANNULATIONUTILISATEUR          5 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   ANOMALIEORDO       6833 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    ARTICLEPRIX       3104 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               AS_BONDECOMMANDE          6 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table         AS_BONDECOMMANDE_FILLE          7 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table              AS_BONDELIVRAISON        173 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table       AS_BONDELIVRAISON_CLIENT          7 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table AS_BONDELIVRAISON_CLIENT_FILLE          7 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table        AS_BONDELIVRAISON_FILLE        177 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 AS_INGREDIENTS        353 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     AS_RECETTE        387 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table          AS_RECETTEFABRICATION       9774 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table          AS_RECETTEOFFFABTABLE       2575 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                AS_RECETTE_BACK         12 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       AS_UNITE         18 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               ATTACHER_FICHIER          7 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        AVOIRFC          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   AVOIRFCFILLE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         BANQUE         15 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   BILANSECTION          2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table           BILAN_SECTION_COMPTE          1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    BONCOMMANDE          1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table           BONDECOMMANDE_CLIENT         19 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table     BONDECOMMANDE_CLIENT_FILLE         30 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         CAISSE         13 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         CARTON         10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      CATEGORIE          6 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               CATEGORIEAVOIRFC          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                CATEGORIECAISSE          9 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table            CATEGORIEINGREDIENT         15 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               CATEGORIE_CENTRE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 CATEGORIE_PAIE          2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table        CATEGORIE_QUALIFICATION         28 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         CENTRE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         CHARGE        547 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        CHECKIN          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       CHECKOUT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         CHEQUE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  CLASSEETFICHE          8 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         CLIENT       2353 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table             CLOTURE_MOIS_ANNEE         13 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     CNAPS_USER         16 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table           COMPTA_CLASSE_COMPTE          8 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  COMPTA_COMPTE       5009 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                COMPTA_ECRITURE        443 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                COMPTA_EXERCICE          3 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 COMPTA_JOURNAL         13 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                COMPTA_LETTRAGE          1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 COMPTA_ORIGINE         15 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table           COMPTA_SOUS_ECRITURE        997 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table             COMPTA_TYPE_COMPTE          4 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       COMPTEUR         30 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                CONDITIONNEMENT        271 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  CONFIGURATION          1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     DATYEXISTE        730 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               DEMANDETRANSFERT        358 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table          DEMANDETRANSFERTFILLE       2181 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        DEPENSE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               DETAILSBONCAISSE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         DEVISE          3 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      DIRECTION          1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       DMDACHAT          3 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  DMDACHATFILLE          4 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   ENCAISSEMENT          4 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table           ENCAISSEMENT_DETAILS          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         EQUIPE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      EQUIPEEMP          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    EQUIVALENCE         23 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              EQUIVALENCECARTON          6 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       ESCOMPTE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     ETATSORTIE         74 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      ETATSTOCK          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    FABRICATION       2257 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               FABRICATIONFILLE       2262 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  FACTURECLIENT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table           FACTURECLIENTDETAILS          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table             FACTUREFOURNISSEUR        206 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table        FACTUREFOURNISSEURFILLE        215 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 FAMILLEPRODUIT          3 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    FOURNISSEUR        668 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table            HEURESUPFABRICATION         15 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table             HEURESUPTEMPORAIRE          2 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    HISTOINSERT       2580 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     HISTORIQUE     111390 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                HISTORIQUEPUING        169 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                HISTORIQUEPVING         45 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table             HISTORIQUE_PRODUIT         18 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                INDISPONIBILITE          2 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     INVENTAIRE         74 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                INVENTAIREFILLE       2146 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          JAUGE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    LIAISONBCBL          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    LIAISONBCFC          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table     LIAISONFACTUREFOURNISSEURS          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                LIAISONPAIEMENT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      LIVRAISON          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               LIVRAISONINTERNE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table          LIVRAISONINTERNEFILLE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  LOG_DIRECTION          9 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  LOG_PERSONNEL       2580 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    LOG_SERVICE        160 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        MACHINE          7 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       MAGASIN2         15 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    MAILRAPPORT          2 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  MENUDYNAMIQUE        334 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 MENUDYNAMIQUE2        306 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        MESSAGE         34 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   MODEPAIEMENT          3 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   MOTIFAVOIRFC          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                MOUVEMENTCAISSE         86 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table            MOUVEMENTCAISSEMERE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table             MVTCAISSEPREVISION         65 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 MVTINTRACAISSE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table           MVTINTRACAISSE_FILLE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       MVTSTOCK       3177 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   MVTSTOCK0309        585 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   MVTSTOCKBACK        261 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  MVTSTOCKFILLE      17859 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              MVTSTOCKFILLE0309       2948 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table              MVTSTOCKFILLEBACK        137 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       MY_TABLE       1844 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   NOTIFICATION        491 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                           OFAB        217 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        OFFILLE        340 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               ORDONNERPAIEMENT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table         ORDONNERPAIEMENTDETAIL          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    PAIEMENTBON          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     PAIEMENTFF          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table            PAIE_INFO_PERSONNEL        127 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     PARAMCRYPT         16 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      PERSONNEL        519 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table              PERTEGAINIMPREVUE          5 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          POINT          3 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          POMPE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          POSTE          2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table  PRECISION_DETAIL_ENCAISSEMENT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    PRELEVEMENT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table           PRELEVEMENT_ENCAISSE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      PREVISION        336 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        PROCESS        575 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                        PRODUIT         11 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       PROFORMA          1 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               PROFORMA_DETAILS          2 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       PROVINCE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table             QUALIFICATION_PAIE         35 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               RAP_OPERATIONNEL       1601 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table               REFERENCEFACTURE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   REPORTCAISSE         10 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              REQUETE_A_ENVOYER      36725 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table       REQUETE_A_ENVOYER_GROUPE          5 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                REQUETE_EXECUTE         68 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    RESERVATION          8 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table             RESERVATIONDETAILS         20 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table        RESSOURCEPARFABRICATION         15 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      RISTOURNE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               RISTOURNEDETAILS          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               RISTOURNEFACTURE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          ROLES          9 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table               SERVER_BROADCAST          1 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          SEUIL          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                SEUILPERTEACHAT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         SOURCE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  SOUSCATEGORIE        125 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table              TARIF_INGREDIENTS          3 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   TAUXDECHANGE         26 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                         TRAITE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                 TRANSFERTSTOCK        485 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table          TRANSFERTSTOCKDETAILS       2684 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                      TYPEAVOIR          2 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     TYPECAISSE          4 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table        TYPECATEGORIEINGREDIENT          3 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     TYPECHARGE          1 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     TYPECLIENT          2 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                TYPEFOURNISSEUR          2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  TYPEGAINPERTE          5 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    TYPEMAGASIN          4 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   TYPEMVTSTOCK          3 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    TYPE_CENTRE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table              TYPE_ENCAISSEMENT          2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   TYPE_FACTURE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     TYPE_PIECE          2 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   TYPE_PRODUIT          6 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          UNITE          6 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   USERHOMEPAGE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                       USERMENU         47 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                   USERMENU1707         26 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                    UTILISATEUR         16 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                          VENTE         12 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                VENTELUBRIFIANT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                  VENTE_DETAILS         12 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table            VENTE_DETAILSTALOHA         68 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table                VERSEMENTCHEQUE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table         VERSEMENTCHEQUEDETAILS          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table            VIREMENTINTRACAISSE          0 rows exported
+EXP-00091: Exporting questionable statistics.
+EXP-00091: Exporting questionable statistics.
+. . exporting table                     VISAOBJECT          0 rows exported
+EXP-00091: Exporting questionable statistics.
+. . exporting table         V_ETATCAISSE_DEVISE_AR          7 rows exported
+EXP-00091: Exporting questionable statistics.
+. exporting synonyms
+. exporting views
+. exporting stored procedures
+. exporting operators
+. exporting referential integrity constraints
+. exporting triggers
+. exporting indextypes
+. exporting bitmap, functional and extensible indexes
+. exporting posttables actions
+. exporting materialized views
+. exporting snapshot logs
+. exporting job queues
+. exporting refresh groups and children
+. exporting dimensions
+. exporting post-schema procedural objects and actions
+. exporting statistics
+Export terminated successfully with warnings.
